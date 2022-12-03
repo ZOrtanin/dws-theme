@@ -1,4 +1,4 @@
-# dws-thame
+# dws-theme
 Фреймворк тем DWS
 
 
@@ -13,7 +13,7 @@ https://www.docker.com
 Запуск локального сервера:
 ```sh
 
-gh repo clone ZOrtanin/dws-thame
+gh repo clone ZOrtanin/dws-theme
 cd ./dws-thame
 docker-compose -f docker-compose.yml up -d
 
