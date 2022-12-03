@@ -1,4 +1,4 @@
-# dws-thame
+# dws-theme
 Фреймворк тем DWS
 
 
