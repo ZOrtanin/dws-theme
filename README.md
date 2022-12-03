@@ -27,6 +27,13 @@ docker exec -i db mysql -uroot -proot wordpress < wordpress.sql
 ```
 * если выдало ошибку заходим в phpMyAdmin и стераем все что есть в базе wordpress за тем повотряем команду
 
+Обновить базу данных:
+```sh
+
+./update-base.sh
+
+```
+
 
 Сайт:
 http://localhost:8000
