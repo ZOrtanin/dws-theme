@@ -18,3 +18,18 @@ cd ./dws-thame
 docker-compose -f docker-compose.yml up -d
 
 ```
+
+Установка базы данных актуальной версии:
+```sh
+
+docker exec -i db mysql -uroot -proot wordpress < wordpress.sql
+
+```
+* если выдало ошибку заходим в phpMyAdmin и стераем все что есть в базе wordpress
+
+
+Сайт:
+http://localhost:8000
+
+phpMyAdmin:
+http://localhost:8080
