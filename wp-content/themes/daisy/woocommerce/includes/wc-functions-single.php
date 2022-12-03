@@ -68,7 +68,13 @@ add_action( 'wp_enqueue_scripts', 'daisy_woocommerce_scripts' );
 function daisy_woocommerce_scripts() {
 	wp_enqueue_style( 'daisy-woocommerce-style', get_template_directory_uri() . '/woocommerce.css');
 
-	$font_path   = WC()->plugin_url() . '/assets/fonts/';
+    // Смотрим установлен ли плагин woocommerce
+    try {        
+        $font_path = WC()->plugin_url() . '/assets/fonts/';    
+    }catch(\Throwable $e) {        
+        $font_path = '/assets/fonts/';    
+    }
+
 	$inline_font = '@font-face {
 			font-family: "star";
 			src: url("' . $font_path . 'star.eot");
