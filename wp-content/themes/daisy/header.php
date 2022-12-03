@@ -12,7 +12,6 @@
 </head>
     <body>
     <?php
-            echo 'я - мега-программист!!!';
             get_template_part('template-parts/style');
 
             get_template_part('template-parts/news_action');
