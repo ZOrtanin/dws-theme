@@ -10,7 +10,7 @@ https://desktop.github.com
 https://www.docker.com 
 
 
-Установка локального сервера:
+Запуск локального сервера:
 ```sh
 
 gh repo clone ZOrtanin/dws-thame
