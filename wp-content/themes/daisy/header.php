@@ -12,6 +12,8 @@
 </head>
     <body>
     <?php
+
+        echo '12312312';
             get_template_part('template-parts/style');
 
             get_template_part('template-parts/news_action');
