@@ -14,7 +14,7 @@ https://www.docker.com
 ```sh
 
 gh repo clone ZOrtanin/dws-theme
-cd ./dws-thame
+cd ./dws-theme
 docker-compose -f docker-compose.yml up -d
 
 ```
