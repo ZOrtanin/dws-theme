@@ -19,6 +19,7 @@ docker-compose -f docker-compose.yml up -d
 
 ```
 
+
 Установка базы данных актуальной версии:
 ```sh
 
@@ -27,12 +28,17 @@ docker exec -i db mysql -uroot -proot wordpress < wordpress.sql
 ```
 * если выдало ошибку заходим в phpMyAdmin и стераем все что есть в базе wordpress за тем повотряем команду
 
-<!-- Обновить базу данных:
+
+
+Обновить базу данных, задаст вопрос отвечаем 'y' :
 ```sh
 
+chmod +x update-base.sh
 ./update-base.sh
 
-``` -->
+```
+* тут могут возникнуть проблемы 
+
 
 
 Сайт:
