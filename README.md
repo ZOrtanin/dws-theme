@@ -1,6 +1,15 @@
 # dws-thame
 Фреймворк тем DWS
 
+
+Установка GitHub Desktop:
+https://desktop.github.com
+
+
+Установка docker Desktop:
+https://www.docker.com 
+
+
 Установка локального сервера:
 ```sh
 
