@@ -30,6 +30,18 @@ docker exec -i db mysql -uroot -proot wordpress < wordpress.sql
 
 Сайт:
 http://localhost:8000
+```
+
+user: root
+password: root
+
+```
 
 phpMyAdmin:
 http://localhost:8080
+```
+
+user: root
+password: root
+
+```
