@@ -13,7 +13,7 @@ https://www.docker.com
 Запуск локального сервера:
 ```sh
 
-gh repo clone ZOrtanin/dws-theme
+git clone git@github.com:ZOrtanin/dws-theme.git
 cd ./dws-theme
 docker-compose -f docker-compose.yml up -d
 
