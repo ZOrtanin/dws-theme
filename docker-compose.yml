@@ -22,6 +22,9 @@ services:
       MYSQL_PASSWORD: PASSWORD
     ports:
       - "3306:3306"
+    volumes:
+      - ./:/var/www/html
+    command: bash -c "cd /var/www/html || mysql -uroot -proot wordpress < wordpress.sql"
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     ports:
